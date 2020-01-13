@@ -19,6 +19,9 @@ import Layout from "./components/dashboard/Layout";
 import NotFound from "./components/404/404";
 import Home from "./components/home/Home";
 import Delivery from "./components/delivery/Delivery";
+import LandingPage from './pages/landing'
+import NavBar from './components/GroupComponent'
+import Shopping from './pages/shopping'
 
 // Style sass
 import "./App.css";
@@ -52,11 +55,13 @@ class App extends Component {
       <Provider store={store}>
         <Router>
           <div className="App">
+            <NavBar/>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/delivery" component={Delivery} />
-
+              <Route exact path="/landing" component={LandingPage} />
+              <Route exact path="/shopping" component={Shopping} />
 
               <Route exact path="/register" component={Register} />
               <PrivateRoute exact path="/dashboard" component={Layout} />
