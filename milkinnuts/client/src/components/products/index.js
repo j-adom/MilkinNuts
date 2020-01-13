@@ -1,0 +1,1 @@
+// card component reference in the shopping index.html ex. book
