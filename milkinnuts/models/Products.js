@@ -3,6 +3,10 @@ const Schema = mongoose.Schema;
 
 // Create Schema
 const ProductSchema = new Schema({
+  sku:{
+    type: String,
+    required: true
+  },
   name: {
     type: String,
     required: true
@@ -11,9 +15,8 @@ const ProductSchema = new Schema({
     type: Number,
     required: true
   },
-  quantity: {
-    type: Number,
-    required: true
+  description: {
+    type: String
   }
 });
 
