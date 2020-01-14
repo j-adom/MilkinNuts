@@ -6,7 +6,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
-                <div class="nav-wrapper">
+                <div className="nav-wrapper">
                    <Link to="/" className="link">Home</Link> 
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         {/* <li><a href="sass.html">Sass</a></li> */}

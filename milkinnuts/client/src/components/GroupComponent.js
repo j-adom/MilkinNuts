@@ -30,7 +30,7 @@ const GroupComponent = () => (
         height="100%"
         viewBox="0 0 1144 842"
       >
-        <image width={1144} height={842} xlinkHref="ComponentTMP_0-image.png" />
+        {/* <image width={1144} height={842} xlinkHref="ComponentTMP_0-image.png" /> */}
       </pattern>
     </defs>
     <rect className="b" width={1440} height={70} />
